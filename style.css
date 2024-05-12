@@ -1,0 +1,147 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    
+}
+
+header > nav > div {
+		float: left;
+		width: 10.6666%;
+		height: 100%;
+		position: relative;
+        text-align: right;
+        left: 40%;
+		font-size: 20px;
+}
+
+header > nav > div:hover > a {
+		background-color: rgba(0, 0, 0, 0.1);
+		cursor: pointer;
+        text-align: right;
+}
+
+header > nav > div > div {
+		display: none;
+		overflow: hidden;
+		background-color: white;
+		min-width: 200%;
+		position: absolute;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+		padding: 10px;
+}
+header > nav > div:not(:first-of-type):not(:last-of-type) > div {
+		left: -50%;
+		border-radius: 0 0 3px 3px;
+}
+
+header > nav > div:first-of-type > div {
+		left: 0;
+		border-radius: 0 0 3px 0;
+}
+
+header > nav > div:hover > div {
+		display: block;
+}
+header > nav > div > div > a {
+		display: block;
+		float: left;
+		padding: 8px 10px;
+		width: 46%;
+		margin: 2%;
+		text-align: center;
+		background-color: #f44355;
+		color: #fbfbfb;
+		border-radius: 2px;
+		transition: background-color 0.2s ease;
+}
+
+header > nav > div > div > a:hover {
+		background-color: #b41424;
+		cursor: pointer;
+}
+
+h1 {
+		margin-top: 100px;
+		font-weight: 100;
+}
+
+p {
+		font-weight: 300;
+}
+
+@media (max-width:600px) {
+		header > nav > div > div > a {
+				margin: 10px 0;
+				width: 100%;
+		}
+		header > nav > div > a > span {
+				display: none;
+		}
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.question {
+	color: gray;
+	margin-left: 30px;
+}
+
+.publication {
+	margin-top: 20px;
+	margin-left: 400px;
+	text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(rgb(87, 193, 255), rgb(0, 0, 255));
+    padding: 5px;
+    border-radius: 10px;
+	width: 280px;
+}
+
+
+.icon {
+	margin-left: 308px;
+}
+
+.reviews {
+    width: 800px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.review {
+    border-left: 5px solid navy;
+    width: 370px;
+    padding-left: 10px;
+}
+
+.nonh1 {
+	font-size: 18px;
+}
+
+span {
+    color: firebrick;
+}
+
+.review-text::before {
+    display: inline-block;
+    content: url("");
+    width: 5px;
+    height: 20px;
+    
+}
+<---/uploads/2021/03/message_0_1614945444.svg--->
