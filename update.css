@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
+.update-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.back {
+    text-decoration: none;
+    color: black;
+}
