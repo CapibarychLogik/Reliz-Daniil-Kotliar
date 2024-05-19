@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+a {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.date {
+    width: 18px;
+}
